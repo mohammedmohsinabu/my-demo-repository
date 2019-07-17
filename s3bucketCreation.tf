@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "b" {
-  bucket = "mohsin-us-east-2"
+  bucket = "mohsin"
   acl    = "private"
 
   tags = {
