@@ -3,7 +3,7 @@ resource "aws_s3_bucket" "b" {
   acl    = "private"
 
   tags = {
-    Name        = "its mohsen"
+    Name        = "it is mohsen for you"
     Environment = "Dev"
   }
 }
